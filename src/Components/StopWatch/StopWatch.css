@@ -1,9 +1,3 @@
-.stop-watch {
-  height: 85vh;
-  width: 23vw;
-  background-color: #0d0c1b;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
+.stopwatch {
+  @apply h-full lg:h-[75vh] w-full lg:w-[25vw] bg-[#0d0c1b] flex flex-col items-center justify-between;
 }
